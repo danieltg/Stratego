@@ -1,11 +1,13 @@
 #include "Menus.h"
 #include "ConsoleUtils.h"
+#include "Game.h"
 
 using namespace std;
 
 int main()
 {
 	bool exit = false;
+	Game game;
 
 	while (!exit)
 	{
@@ -21,8 +23,7 @@ int main()
 		case MainMenuState::Start:
 
 			clear_screen();
-			//simulation.loadHousesByFilesNames(FilesUtils::getHousesListInFolder());
-			//simulation.start();
+			game.start();
 			break;
 
 		case MainMenuState::ReversedGame:

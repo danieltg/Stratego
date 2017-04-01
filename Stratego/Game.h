@@ -2,10 +2,10 @@
 #define _GAME_H_
 
 
-class Simulation {
+class Game {
 
 public:
-	Simulation();	// Ctor
+	Game();	// Ctor
 
 	void start();
 

@@ -12,13 +12,13 @@ public:
 	~GameTracker();
 	
 	void step();
-	void initTracker(House _house, KeyboardAlgo* _algo);
+	//void initGameTracker(House _house, KeyboardAlgo* _algo);
 	
 
 private:
 
-	bool checkIfStepValid(Direction direction);
+	/*bool checkIfStepValid(Direction direction);
 	void moveByDirection(Direction direction);
-	void restartGameTracker();
+	void restartGameTracker();*/
 };
 #endif

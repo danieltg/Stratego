@@ -1,11 +1,11 @@
 #include "Game.h"
 
-Simulation::Simulation()
+Game::Game()
 {
 	//for future use
 }
 
-void Simulation::start()
+void Game::start()
 {
 	
 }
