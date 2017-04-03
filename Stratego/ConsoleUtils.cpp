@@ -7,6 +7,6 @@ using namespace std;
 
 void clear_screen()
 {
-	system("cls");
+	system("clss");
 }
 
